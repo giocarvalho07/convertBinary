@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-header{
+    width: 75vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-header h1{
+    color: #ec7000;
+    margin: 10px;
+}
+
+#div-header p{
+    color: #fff;
+    font-size: 25px;
+}
+
+main{
+    width: 100vw;
+    height: 500px;
+    background-image: url("../img/binario.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#div-conjBotao{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    background-color: #33333334;
+}
+
+#btn-numerico{
+    background-color: #58197f;
+    padding: 15px;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+#btn-numerico a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#btn-binario{
+    background-color: #24b644;
+    padding: 15px;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+#btn-binario a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    width: 100vw;
+    height: 205px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-footer{
+    width: 30vw;
+    height: 150px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.rupp {
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.code {
+    color: #ec7000;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+i a {
+    color: #f5f6fa;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;   
+}
+
+@media screen and (max-width: 450px) {
+
+    #div-conjBotao {
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+}

@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#div-header{
+    width: 75vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div-header .h2-logo a{
+    color: #fff ;
+    text-decoration: none;
+}
+
+#div-header .h2-paginaBinario a{
+    color: #9B20E7; 
+    text-decoration: none;
+}
+
+#main-form{
+    width: 100vw;
+    height: 500px;
+    background-color: #24b644;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#main-form .titulo_form{
+    color: rgba(27, 24, 24, 0.795);
+    font-size: 30px;   
+}
+
+#main-form #form{
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#main-form #form .div-input-conversao{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-form #form .div-input-conversao #valorBinario { 
+    margin-top: 20px;
+}
+
+
+#valorBinario {
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+}
+
+#btn-calcular{
+    background-color: #ccc;
+    padding: 15px;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#btn-calcular a{
+    text-decoration: none;
+}
+
+#main-form #form #div-resultadoConversao { 
+    background-color: rgb(32, 32, 209);
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+footer{
+    width: 100vw;
+    height: 205px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .div-footer-icones{
+    width: 40vw;
+    height: 205px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .div-footer-retorno{
+    width: 40vw;
+    height: 205px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .div-footer-retorno #btn-retorno{
+    background-color: #706f6f;
+    padding: 15px;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+
+#btn-retorno a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.rupp {
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.code {
+    color: #ec7000;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+i a {
+    color: #f5f6fa;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;   
+}
+
+
+@media screen and (max-width: 450px) {
+
+    #div-resultadoConversao {
+        padding: 10px;
+        display: flex;
+    }
+
+}
